@@ -15,7 +15,7 @@ body {
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
-  padding: 80px 0 40px;
+  padding: 80px 0;
 }
 
 .intro-chunk {
@@ -24,12 +24,13 @@ body {
 
 .intro-chunk,
 .card {
-  padding: 28px;
+  padding: 0 28px;
 }
 
 .card {
   background: hsl(0deg, 0%, 100%);
   padding-top: 8px;
+  padding-bottom: 28px;
 }
 
 strong {
@@ -49,6 +50,10 @@ main {
 p {
   font-size: 1.25rem;
   line-height: 1.875rem;
+}
+
+p:last-child {
+  margin-bottom: 0;
 }
 
 h1 {
