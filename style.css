@@ -7,6 +7,7 @@ html,
 body {
   margin: 0;
   padding: 0;
+  color: hsl(0deg, 0%, 0%);
 }
 
 /* Add styles here! */
@@ -27,22 +28,22 @@ body {
 }
 
 .card {
-  background: #fff;
+  background: hsl(0deg, 0%, 100%);
   padding-top: 8px;
 }
 
 strong {
-  color: #009966;
+  color: hsl(160deg, 100%, 30%);
 }
 
 header,
 .card {
-  border: solid #999999;
+  border: solid hsl(0deg, 0%, 60%);
   border-width: 0 0 8px;
 }
 
 main {
-  background: #666666;
+  background: hsl(0deg, 0%, 40%);
 }
 
 p {
@@ -61,8 +62,8 @@ h2 {
   font-size: 1.5rem;
   line-height: 1.8rem;
   max-width: fit-content;
-  background-color: #ffbf00;
-  border: solid #cc9900;
+  background-color: hsl(45deg, 100%, 50%);
+  border: solid hsl(45deg, 100%, 40%);
   border-width: 0 0 8px;
   padding: 12px 36px;
   margin: 0 0 0 -36px;
