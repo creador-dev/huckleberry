@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 html,
@@ -10,3 +10,60 @@ body {
 }
 
 /* Add styles here! */
+.max-width-wrapper {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 80px 0 40px;
+}
+
+.intro-chunk {
+  max-width: 470px;
+}
+
+.intro-chunk,
+.card {
+  padding: 28px;
+}
+
+.card {
+  background: #fff;
+  padding-top: 8px;
+}
+
+strong {
+  color: #009966;
+}
+
+header,
+.card {
+  border: solid #999999;
+  border-width: 0 0 8px;
+}
+
+main {
+  background: #666666;
+}
+
+p {
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+}
+
+h1 {
+  font-size: 2rem;
+  line-height: 2.4rem;
+  font-weight: 800;
+  margin: 0 0 48px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  max-width: fit-content;
+  background-color: #ffbf00;
+  border: solid #cc9900;
+  border-width: 0 0 8px;
+  padding: 12px 36px;
+  margin: 0 0 0 -36px;
+}
